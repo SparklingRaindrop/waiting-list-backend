@@ -11,6 +11,7 @@ const io = new Server(server, {
   cors: {
     origin: ["https://cme-tsu-waitinglist.herokuapp.com/"],
     method: ["POST", "GET"],
+    credentials: true
   },
 });
 
